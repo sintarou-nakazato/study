@@ -4,20 +4,14 @@ body{
   background-color: aliceblue;
 }
 
-h1{
-  font-family:  serif;
+.container{
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-h2{
-  font-family: "ゴシック体", "Yu Gothic, YuGothic, sans-serif";
-  text-align: justify;
-}
-
-p{
-  border-style: solid;
-  border-color: brown;
-}
-
-ul{
-  list-style-type: armenian;
+.item{
+  background-color: #0bd;
+  color: #fff;
+  margin: 10px;
+  padding: 10px;
 }
