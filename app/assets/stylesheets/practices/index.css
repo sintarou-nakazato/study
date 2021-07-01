@@ -14,7 +14,10 @@ h2{
 }
 
 p{
-  background: #0bd;
-  margin-top: 40px;
-  padding: 40px;
+  border-style: solid;
+  border-color: brown;
+}
+
+ul{
+  list-style-type: armenian;
 }
